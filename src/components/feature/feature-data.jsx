@@ -1,19 +1,19 @@
-import { Laptop, CodeXml, Heart } from 'lucide-react';
+import { LaptopMinimal, CodeXml, Heart } from 'lucide-react';
 
 export const feature = [
   {
-    icon: Laptop,
-    title: 'DIGITAL DESIGN',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum.',
+    icon: <LaptopMinimal size={50} className="stroke-white"/>,
+    title: 'Digital Design',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.',
   },
   {
-    icon: CodeXml,
-    title: 'WEB DEVELOPMENT',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum.',
+    icon: <CodeXml size={50} className="stroke-white"/>,
+    title: 'Web Development',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.',
   },
   {
-    icon: Heart,
-    title: 'CREATIVE DIRECTION',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum.',
+    icon: <Heart size={50} className="stroke-white"/>,
+    title: 'Creative Direction',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.',
   },
 ];
