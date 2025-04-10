@@ -6,7 +6,7 @@ const Banner = () => {
   <img
     src="https://tympanus.net/Freebies/HalcyonDaysTemplate/img/hero-bg.jpg"
     alt=""
-    className="w-[1600px] h-[600px] object-cover"
+    className="w-full h-full object-cover"
   />
   <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center">
     <h1 className="text-[40px] font-normal uppercase text-gray-800 tracking-[12px] mb-2">
